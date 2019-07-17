@@ -2,6 +2,7 @@ package com.tarlanbakirli.sfgpetclinic.services.map;
 
 import com.tarlanbakirli.sfgpetclinic.model.Owner;
 import com.tarlanbakirli.sfgpetclinic.services.OwnerService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
@@ -9,6 +10,7 @@ import java.util.Set;
  * Created by Tarlan Bakirli on 7/16/2019
  */
 
+@Service
 public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
 
     @Override
